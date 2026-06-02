@@ -9,11 +9,7 @@
 # 1) Python 버전 확인: 3.10 이상
 python3 --version
 
-# 2) 코드 수정 시 문법/테스트 검증
-python3 -m py_compile holdem/*.py
-python3 -m unittest discover -s tests -v
-
-# 3) 웹 UI 실행(게임 시작)
+# 2) 웹 UI 실행(게임 시작)
 python3 -m holdem.play
 ```
 
@@ -24,12 +20,6 @@ python3 -m holdem.play
 ```bash
 python3 -m holdem.server
 # 원하는 브라우저에서 http://127.0.0.1:8000 접속
-```
-
-## 실행: 웹 UI 앱
-
-```bash
-python3 -m holdem.play
 ```
 
 - 내부 로컬 서버를 임시 포트로 띄우고 브라우저를 자동으로 엽니다.
