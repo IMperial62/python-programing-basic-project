@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Felt pattern">
+  <rect width="160" height="160" fill="#0b6b43"/>
+  <path d="M0 30h160M0 80h160M0 130h160M30 0v160M80 0v160M130 0v160" stroke="#ffffff" stroke-opacity=".045" stroke-width="4"/>
+  <circle cx="80" cy="80" r="62" fill="none" stroke="#f2c96d" stroke-opacity=".08" stroke-width="6"/>
+</svg>

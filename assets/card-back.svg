@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" role="img" aria-label="Card back">
+  <rect x="4" y="4" width="92" height="132" rx="12" fill="#163d9a" stroke="#e5eeff" stroke-width="6"/>
+  <path d="M18 20h64v100H18z" fill="none" stroke="#e5eeff" stroke-opacity=".35" stroke-width="4"/>
+  <path d="M20 28 80 88M80 28 20 88M20 52l60 60M80 52l-60 60" stroke="#ffffff" stroke-opacity=".16" stroke-width="6"/>
+</svg>

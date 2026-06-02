@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Poker chip">
+  <circle cx="60" cy="60" r="54" fill="#d93636" stroke="#fff2ca" stroke-width="8"/>
+  <circle cx="60" cy="60" r="31" fill="#fff2ca" stroke="#831f1f" stroke-width="5"/>
+  <g fill="#fff2ca"><rect x="55" y="5" width="10" height="24" rx="3"/><rect x="55" y="91" width="10" height="24" rx="3"/><rect x="91" y="55" width="24" height="10" rx="3"/><rect x="5" y="55" width="24" height="10" rx="3"/></g>
+  <text x="60" y="69" text-anchor="middle" font-family="Arial" font-weight="900" font-size="25" fill="#831f1f">POT</text>
+</svg>

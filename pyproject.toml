@@ -1,0 +1,5 @@
+[project]
+name = "holdem-onprem"
+version = "0.1.0"
+description = "Compact on-prem Texas Holdem backend and UI scaffold"
+requires-python = ">=3.10"

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hold'em with AI</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div id="streetBanner" class="street-banner" aria-live="polite"></div>
+
+  <header class="topbar">
+    <div>
+      <h1>Hold'em with AI </h1>
+      <p>Enjoy playing Hold'em with AI experts</p>
+    </div>
+    <div class="toolbar">
+      <select id="seats" aria-label="players"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select>
+      <button id="create">New Game</button>
+      <button id="newHand" class="ghost" disabled>Next Hand</button>
+    </div>
+  </header>
+
+  <main class="game-shell">
+    <section id="opponents" class="opponents" aria-label="opponent seats"></section>
+
+    <section class="table-scene" aria-label="poker table">
+      <div class="felt"></div>
+      <div class="rail-text">HOLD'EM</div>
+      <div id="pot" class="pot-panel">Pot 0</div>
+      <div id="board" class="board"></div>
+    </section>
+
+    <section class="hud">
+      <article class="panel hand-panel">
+        <div class="eyebrow">Your hand</div>
+        <div id="yourHand" class="hand-cards"></div>
+        <div id="heroMadeHand" class="made-hand"></div>
+        <div id="heroStats" class="bet-grid"></div>
+      </article>
+
+      <article id="actionPanel" class="panel action-panel">
+        <div id="status" class="status">Start a new game</div>
+        <div id="substatus" class="substatus">Local web app</div>
+        <div id="actions" class="actions"></div>
+      </article>
+
+      <article class="panel log-panel">
+        <div class="eyebrow">Action log</div>
+        <div id="log" class="log"></div>
+      </article>
+    </section>
+  </main>
+
+  <details class="debug">
+    <summary>debug state</summary>
+    <pre id="raw">{}</pre>
+  </details>
+</body>
+</html>
