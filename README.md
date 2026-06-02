@@ -1,6 +1,5 @@
-# Standalone Texas Holdem
+# Hold'em with AI 
 
-Hold'em with AI 
 
 ## 빌드/실행 빠른 시작
 
@@ -67,7 +66,7 @@ python3 -m holdem.server
 - `holdem/store.py` — 선택형 로컬 SQLite 저장소 (`data/holdem.sqlite`)
 - `holdem/server.py` — HTTP API + 웹 UI/assets 제공
 - `web/index.html` — 웹 UI HTML 골격
-- `web/styles.css` — 3D풍 플레이어 POV 스타일
+- `web/styles.css` — POV 스타일
 - `web/app.js` — API 호출과 렌더링 로직
 - `assets/*.svg` — 봇 아바타, 칩, 카드 뒷면, 테이블 패턴
 
